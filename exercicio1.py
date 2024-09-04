@@ -12,9 +12,8 @@ def obter_numero(legenda: str) -> float:
 			print("Número Inválido.")
 
 def exibir_soma(numero1: float, numero2: float) -> None:
-    """ Exibe a soma de 2 números """
-    # soma = numero1 + numero2
-	# print(f"Soma => {numero1} + {numero2} = {soma}")
+	soma = numero1 + numero2
+	print(f"Soma => {numero1} + {numero2} = {soma}")
 
 def exibir_subtracao(numero1: float, numero2: float) -> None:
 	""" Exibe a subtração de 2 números """
