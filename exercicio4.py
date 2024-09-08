@@ -42,16 +42,16 @@ def exibir_resultado_operacao(operacao, numero1, numero2, resultado) -> None:
         sinal_operacao = "+"
         nome_operacao = "Adição"
     elif (operacao == Operacao.SUBTRACAO): 
-        sinal_operacao = "Subtração"
-        nome_operacao = "-"
+        sinal_operacao = "-"
+        nome_operacao = "Subtração"
     elif (operacao == Operacao.MULTIPLICACAO): 
-        sinal_operacao = "Multiplicação"
-        nome_operacao = "*"
+        sinal_operacao = "*"
+        nome_operacao = "Multiplicação"
     elif (operacao == Operacao.DIVISAO):
-        sinal_operacao = "Divisão"
-        nome_operacao = "/"
+        sinal_operacao = "/"
+        nome_operacao = "Divisão"
     
-    print(f"Resultado {nome_operacao} -> {numero1} {sinal_operacao} {numero2} = {resultado}")
+    print(f"{nome_operacao} -> {numero1} {sinal_operacao} {numero2} = {resultado}")
     
     
 operacao = obter_operacao()
